@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.flowers {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100vw;
+    background-color: brown;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    background-color: blue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    background-color: red;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    background-color: green;
+}
