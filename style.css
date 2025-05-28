@@ -19,6 +19,8 @@ header {
     height: 100%;
     width: 20%;
     background-color: blue;
+    align-items: center;
+    
 }
 
 main {
@@ -27,6 +29,7 @@ main {
     height: 100%;
     width: 80%;
     background-color: red;
+    overflow: scroll;
 }
 
 footer {
