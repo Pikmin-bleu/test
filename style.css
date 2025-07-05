@@ -1,34 +1,38 @@
+@font-face {
+    font-family: 'font';
+    src: url('ARCADEPI.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     display: flex;
     flex-direction: column;
     padding: 0px;
     margin: 0px;
-}
-
-.flowers {
-    display: flex;
-    flex-direction: row;
-    height: 50vh;
-    width: 100vw;
-    background-color: brown;
+    font-family:'font';
+    cursor: url(https://airfrancevirtuel.com/wp-content/uploads/2020/08/a220-min.png), auto;
 }
 
 header {
     display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 20%;
-    background-color: blue;
+    flex-direction: row;
+    height: 20vh;
+    width: 100vw;
+    /* 100% of the page's width = 100vw (view width)*/
+    background-color: #424242;
     align-items: center;
-    
+    /* ^ this aligns your items in your box verticularly*/
+    justify-content: center;
+    /* ^ this aligns your items in your box horizontally*/
 }
 
 main {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 80%;
-    background-color: red;
+    height: 60vh;
+    width: 100vw;
+    background-color: #424242;
     overflow: scroll;
 }
 
@@ -36,6 +40,19 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 50vh;
-    background-color: green;
+    height: 20vh;
+    background-color: #424242;
+}
+
+a {
+    color: red;
+}
+
+footer:hover {
+    back
+}
+
+a:hover {
+    color: black;
+    cursor: url(https://airfrancevirtuel.com/wp-content/uploads/2021/08/b777-2-detour.png);
 }
